@@ -4,6 +4,6 @@ int main(){
     for(i=2; i<=50;i+=2){
         print(i);
     }
-   return 0;;
+   return 0;
 
 }
