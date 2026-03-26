@@ -1,0 +1,92 @@
+The Memory Swap: Declare two integers, a and b. Use scanf to take their values from the user. Swap their values using a third temporary variable and print the result
+.
+The Precision Circle: Declare a float for the radius of a circle. Calculate the area (Area=3.14159×r×r) and print it formatted to exactly 2 decimal places using % .2f
+.
+The ASCII Translator: Input a single character using scanf("%c"). Print that character and then print its corresponding decimal ASCII value using %d
+.
+Financial Interest: Create a program that inputs Principal (int), Rate (float), and Time (int). Calculate the Simple Interest (SI=P×T×R/100) and store it in a float variable before printing
+.
+The Unit Converter: Take a number of days as an int. Calculate and print how many years, weeks, and remaining days that represents (Assume 1 year = 365 days)
+.
+
+## 9. Practice Problems
+
+**P1.** Take a number. Print whether it is positive, negative, or zero.
+
+**P2.** Take two numbers. Print the larger one.
+
+**P3.** Take three numbers. Print the largest of the three.
+
+
+
+
+
+**P5.** Take a year as input. Print whether it's a leap year.
+*(Leap year: divisible by 4, but if divisible by 100 then also by 400)*
+
+**P6.** Build a simple calculator using `switch`. Take two numbers and an operator (+, -, *, /). Print result. Handle division by zero.
+
+**P7.** Take a character input. Using `if` and logical operators, print:
+- "Vowel" if it's a, e, i, o, u
+- "Consonant" if it's any other letter
+- "Not a letter" if it's a digit or symbol
+
+**P8 (Hard).** Take a number 1–12. Using `switch` with deliberate fall-through, print which season it belongs to (Nepal seasons: Spring 3-4, Summer 5-6, Monsoon 7-9, Autumn 10-11, Winter 12-2).
+
+---
+
+## 10. Mini Challenge 🔥
+
+> **ATM PIN System**
+> - Ask user to enter a PIN (integer)
+> - If PIN == 1234 → show "Access granted. Balance: Rs. 50,000"
+> - If PIN is between 1000–9999 but wrong → show "Wrong PIN. 2 attempts left."
+> - If PIN is not even a 4-digit number → show "Invalid PIN format."
+>
+> *Think first: what conditions do you need? What order should you check them?*
+
+---
+
+
+
+
+## 7. Practice Problems
+
+**P1.** Print numbers 1 to 100 using a `for` loop.
+
+**P2.** Print all even numbers between 1 and 50.
+
+**P3.** Take N as input. Print multiplication table of N (up to 10).
+
+**P4.** Take N numbers as input. Print their sum and average.
+
+**P5.** Take N as input. Print factorial of N.
+*(factorial: 5! = 5×4×3×2×1 = 120)*
+
+**P6.** Take numbers from user one by one until they enter 0. Print the sum of all entered numbers.
+*(Hint: which loop fits here — for or while?)*
+
+**P7.** Print this pattern:
+```
+*
+**
+***
+****
+*****
+P8 (Hard). Take a number. Print whether it is prime or not.
+(A prime is divisible only by 1 and itself — check divisibility from 2 to n-1)
+
+8. Mini Challenge 🔥
+
+ATM with Real Attempts
+Build on your ATM PIN program. Now:
+
+Give the user 3 attempts to enter the correct PIN (1234)
+Each wrong attempt shows how many attempts remain
+After 3 wrong attempts → "Card blocked."
+Correct PIN at any attempt → "Access granted."
+
+Think: which loop fits? What's the condition to keep looping?
+
+
+Attempt P1 through P5 and the mini challenge. The mini challenge connects directly to your previous ATM code — you're building on something you already understand. 🔁 Sonnet 4.6
