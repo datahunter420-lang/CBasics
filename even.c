@@ -2,7 +2,7 @@
 int main(){
     int i;
     for(i=2; i<=50;i+=2){
-        print(i);
+        printf("%d\n\n",i);
     }
    return 0;
 
