@@ -1,0 +1,40 @@
+
+
+# PART 10 — PRACTICE PROBLEMS
+
+## Easy (5 Problems)
+
+**E1.** Take a string input. Print it character by character using a loop, each on a new line.
+
+**E2.** Take a string. Print its length without using `strlen` — count manually using a loop and `\0`.
+
+**E3.** Take a string. Count how many vowels and consonants it has.
+
+**E4.** Take a string. Convert it to uppercase manually using a loop — without `strupr`. *(Hint: 'a' - 'A' = 32 in ASCII)*
+
+**E5.** Take two strings. Check if they are equal using `strcmp`. Print "Same" or "Different."
+
+---
+
+## Medium (3 Problems)
+
+**M1.** Take a string. Reverse it manually using a loop (without `strrev`). Print the reversed string.
+
+**M2.** Take a sentence with spaces using `fgets`. Count the number of words in it.
+
+**M3.** Take a string. Check if it is a palindrome using the two-pointer approach shown earlier.
+
+---
+
+## Hard (2 Problems)
+
+**H1.** Take a string. Remove all duplicate characters, keeping only the first occurrence.
+```
+Input:  "programming"
+Output: "progamin"
+```
+
+**H2.** Take a string. Count the frequency of each character that appears in it.
+```
+Input:  "hello"
+Output: h=1, e=1, l=2, o=1 

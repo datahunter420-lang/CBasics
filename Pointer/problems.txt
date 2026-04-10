@@ -1,0 +1,16 @@
+PART 12 — PRACTICE PROBLEMS
+Easy (5 Problems)
+E1. Declare an int variable, a pointer to it. Print the value using the pointer and the address using both &variable and the pointer itself.
+E2. Write a function square(int *n) that squares the number in place — modifying the original variable using a pointer.
+E3. Write a function swap(int *a, int *b) that swaps two integers. Test it from main.
+E4. Walk through an array using a pointer (not index). Print all elements using *p and p++.
+E5. Write a function that takes a string as a char * and counts its length manually — without strlen, using pointer arithmetic.
+
+Medium (3 Problems)
+M1. Write a function void minMax(int *arr, int size, int *min, int *max) that finds both min and max in one pass and stores them via pointers.
+M2. Dynamically allocate an array of N integers (N taken from user). Fill it with squares (1, 4, 9, 16...). Print and free.
+M3. Write a function that reverses an array in place using pointers — two pointer technique (one at start, one at end, swap and move toward center).
+
+Hard (2 Problems)
+H1. Without using any string functions, write your own mystrcpy(char *dest, char *src) that copies a string using pointer arithmetic only — no array indexing ([]).
+H2. Dynamically allocate a 2D array of size rows × cols (taken from user) using pointer to pointer. Fill with row×col values. Print as matrix. Free all memory properly.
